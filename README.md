@@ -4,7 +4,7 @@ API_YAMDB - проект учебного API для сервиса отзыво
 
 АВТОРЫ:
 
-Егор Мухаметвафин - https://github.com/egor20040
+Егор Мухаметвафин - https://github.com/emuhich
 
 Роман Лосев - https://github.com/huli-net
 
