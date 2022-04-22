@@ -26,32 +26,38 @@
 
 
 Клонировать репозиторий [GitHub](https://github.com/emuhich/api_yamdb)
-
+```
+git clone https://github.com/emuhich/api_yamdb.git
+```
+Перейдите в папку проекта в командной строке:
+``` 
+cd api_yamdb
+``` 
 Cоздать и активировать виртуальное окружение:
-```python
+```
 python -m venv env
 ```
 Установить зависимости из файла requirements.txt:
 
-```python
+```
 python -m pip install --upgrade pip
 
 pip install -r requirements.txt
 ```
 
-Сделать миграции
-
-```python
+Выполните миграции и соберите статику проекта: 
+ 
+``` 
 python manage.py makemigrations
-
 python manage.py migrate
-```
-
-Запустить проект
-
-```python
-python3 manage.py runserver
-```
+``` 
+``` 
+python manage.py collectstatic
+``` 
+Запустите сервер:
+``` 
+python manage.py runserver
+``` 
 
 ### Авторы:
 
