@@ -1,7 +1,8 @@
 # yamdb_final
 
-[![Django-app workflow](https://github.com/anton8963kobelev/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/anton8963kobelev/yamdb_final/actions/workflows/yamdb_workflow.yml)
-
+![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
 
 ## Описание проекта:
 
@@ -21,40 +22,41 @@
 
 ### Теперь вы можете работать с API проекта, отправляя полученный токен при каждом запросе :) ###
 
-АВТОРЫ:
-
-Егор Мухаметвафин - https://github.com/emuhich
-
-Роман Лосев - https://github.com/huli-net
-
-Andrei Vedernikov - https://github.com/Andrei800
+## Настройка и запуск проекта:
 
 
-ЗАПУСК ПРОЕКТА
-
-
-Клонировать репозиторий GitHub
-
+Клонировать репозиторий [GitHub](https://github.com/emuhich/api_yamdb)
 
 Cоздать и активировать виртуальное окружение:
-
+```python
 python -m venv env
-
-
+```
 Установить зависимости из файла requirements.txt:
 
+```python
 python -m pip install --upgrade pip
 
 pip install -r requirements.txt
-
+```
 
 Сделать миграции
 
+```python
 python manage.py makemigrations
 
 python manage.py migrate
-
+```
 
 Запустить проект
 
+```python
 python3 manage.py runserver
+```
+
+### Авторы:
+
+[Егор Мухаметвафин](https://github.com/emuhich)
+
+[Роман Лосев](https://github.com/huli-net)
+
+[Andrei Vedernikov](https://github.com/Andrei800)
